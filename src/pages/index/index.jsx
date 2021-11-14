@@ -20,11 +20,6 @@ export default class Index extends Component {
     return (
       <View>
         <Text>Hello world!</Text>
-        <AtButton type='primary'>I need Taro UI</AtButton>
-        <Text>Taro UI 支持 Vue 了吗？</Text>
-        <AtButton type='primary' circle>hello</AtButton>
-        <Text>共建？</Text>
-        <AtButton type='secondary' circle>来</AtButton>
         <AtIcon prefixClass='ri' value='home-line' />
       </View>
     )
