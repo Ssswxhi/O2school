@@ -28,6 +28,11 @@ export default {
                 selectedIconPath: './assets/icons/calendar_selected.png'
             },
             {
+                pagePath: 'pages/index/index',
+                iconPath: './assets/icons/add.png',
+                selectedIconPath: './assets/icons/add.png'
+            },
+            {
                 pagePath: 'pages/notification/index',
                 text: '通知',
                 iconPath: './assets/icons/notification.png',
