@@ -3,7 +3,8 @@ export default {
         'pages/index/index',
         'pages/calendar/index',
         'pages/notification/index',
-        'pages/user/index'
+        'pages/user/index',
+        'pages/add/index'
     ],
     window: {
         backgroundTextStyle: 'light',
@@ -28,7 +29,7 @@ export default {
                 selectedIconPath: './assets/icons/calendar_selected.png'
             },
             {
-                pagePath: 'pages/index/index',
+                pagePath: 'pages/add/index',
                 iconPath: './assets/icons/add.png',
                 selectedIconPath: './assets/icons/add.png'
             },
