@@ -6496,7 +6496,11 @@
 
 "form-data@^2.5.0":
   "integrity" "sha1-8svsV7XlniNxbhKP5E1OXdI4lfQ="
+<<<<<<< HEAD
   "resolved" "https://registry.nlark.com/form-data/download/form-data-2.5.1.tgz"
+=======
+  "resolved" "https://registry.npm.taobao.org/form-data/download/form-data-2.5.1.tgz"
+>>>>>>> 6e61335cb570dd2c1b66a5a3a72e1469d73c24fc
   "version" "2.5.1"
   dependencies:
     "asynckit" "^0.4.0"

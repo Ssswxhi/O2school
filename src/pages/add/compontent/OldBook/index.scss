@@ -15,7 +15,11 @@
                 position: absolute;
                 top: 50%;
                 transform: translateY(-50%);
+<<<<<<< HEAD
                 width: 55%;
+=======
+                width: 60%;
+>>>>>>> 6e61335cb570dd2c1b66a5a3a72e1469d73c24fc
                 background-color: $color-grey-5;
                 margin-left: 8%;
                 padding: 1% 0 1% 9%;
@@ -37,6 +41,14 @@
             width: 100%;
             height: 30%;
             background-color: $color-white;
+<<<<<<< HEAD
+=======
+            .imge{
+                margin-left: 5%;
+                width: 100%;
+                height: 100%;
+            }
+>>>>>>> 6e61335cb570dd2c1b66a5a3a72e1469d73c24fc
         }
         .bottom-box{
             font-size: $font-size-base;

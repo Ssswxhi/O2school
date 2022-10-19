@@ -40,6 +40,7 @@ export default function() {
       method: "GET",
       success: function(res) {
         setVerifyURL("data:image/png;base64," + res.data.img);
+<<<<<<< HEAD
         //captchaID = res.data.data.code;
         captchaID = res.data.code;
         console.log("打印结果");
@@ -48,6 +49,16 @@ export default function() {
       // err: function(err) {
       //   console.log(err);
       // }
+=======
+        captchaID = res.data.code;
+        // console.log(res.data.data.img);
+        // Object.assign(data, res.data);
+        // console.log(res.data);
+      },
+      error: function(err) {
+        console.log(err);
+      }
+>>>>>>> 6e61335cb570dd2c1b66a5a3a72e1469d73c24fc
     });
   };
   let getSchoolID = event => {
@@ -62,7 +73,10 @@ export default function() {
     console.log(event.detail.value);
     setVerifyValue(event.detail.value);
   };
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6e61335cb570dd2c1b66a5a3a72e1469d73c24fc
   let giveloginMes = () => {
     Taro.showLoading({
       title: "加载中"
@@ -77,16 +91,24 @@ export default function() {
         codeID: captchaID
       },
       success: function(res) {
+<<<<<<< HEAD
         // console.log(res);
+=======
+        console.log(res);
+>>>>>>> 6e61335cb570dd2c1b66a5a3a72e1469d73c24fc
         Taro.setStorage({
           key: "token",
           data: res.data.data
         });
         Taro.hideLoading();
+<<<<<<< HEAD
         console.log("------------------");
         console.log(res.data);
         console.log(res.data.data);
 
+=======
+        console.log(res.data);
+>>>>>>> 6e61335cb570dd2c1b66a5a3a72e1469d73c24fc
         if (res.data.code == 0) {
           Taro.getUserProfile({
             desc: "用于完善会员资料", // 声明获取用户个人信息后的用途，后续会展示在弹窗中，请谨慎填写
@@ -95,7 +117,10 @@ export default function() {
                 key: "userMess",
                 data: res.userInfo
               });
+<<<<<<< HEAD
               console.log("用户昵称和头像");
+=======
+>>>>>>> 6e61335cb570dd2c1b66a5a3a72e1469d73c24fc
               console.log(res.userInfo);
               Taro.reLaunch({ url: IndexUrl });
             }
