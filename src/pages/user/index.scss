@@ -1,0 +1,44 @@
+@import '@/variables.scss';
+.img{
+    float:left;
+    margin-top:25px;
+    margin-bottom:20px;
+    margin-left:5%;
+    
+}
+
+.tabbar .ri{
+    color: #333;
+}
+// .tab .ri{
+//     color: $color-black-2;
+// }
+.des{
+  
+    margin-top:45px;
+    margin-bottom:20px;
+    margin-left:5%;
+
+    float:left;
+}
+.name-des{
+  
+    font-weight:bolder;
+    font-size:23px;
+
+}
+.address-des{
+    font-size:18px;
+}
+.middle{
+    height: 25px;
+    background-color:$color-bg-grey;
+
+}
+.tab .at-tab-bar__item--active{
+    color:#000
+}
+.icon{
+    color:$color-black-2;
+   
+}

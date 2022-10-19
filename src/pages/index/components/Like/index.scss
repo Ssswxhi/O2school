@@ -1,0 +1,37 @@
+@import '@/variables.scss';
+
+
+.box {
+    margin: 10px;
+    column-count: 2;
+    column-gap: $spacing-h-lg;
+    margin-bottom:400px;
+    height:100%;
+   
+}
+.item {
+    height:100%;
+    overflow: auto;//解决columu布局内容被切断
+    margin-bottom: $spacing-v-lg;
+}
+
+ .at-article__img{
+   width:100%;
+   border-radius: 25px;
+}
+.text{
+    font-size:$font-size-base;
+    text-overflow: clip;
+    overflow: hidden;//超出的文本隐藏
+   // white-space: nowrap;
+    display: -webkit-box; //将对象作为弹性伸缩盒子模型显示。
+    -webkit-line-clamp: 2;////从上到下垂直排列子元素（设置伸缩盒子的子元素排列方式）
+    -webkit-box-orient: vertical;//这个属性不是css的规范属性，需要组合上面两个属性，表示显示的行数。
+
+}
+.price{
+    margin-top:$spacing-v-sm;
+    color:red;
+    font-weight: bold;
+    font-size:$font-size-lg;
+}

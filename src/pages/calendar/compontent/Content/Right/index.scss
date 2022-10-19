@@ -1,0 +1,60 @@
+.right {
+  height: 100%;
+  width: 91%;
+  // background-color: blue;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+
+  .coursebox {
+    box-sizing: border-box;
+    color: #FFF;
+    font-size: small;
+    width: 13%;
+    height: 10%;
+    // border-radius: 5%;
+    flex-grow: 1;
+    background-color: #d2f1f0;
+    display: flex;
+    // align-items: center;
+    justify-content: center;
+    border-bottom: 1px dashed gray;
+  }
+
+  .coursenullbox {
+    position: relative;
+    box-sizing: border-box;
+    width: 13%;
+    height: 10%;
+    flex-grow: 1;
+    background-color: #fff;
+    display: flex;
+    // align-items: center;
+    justify-content: center;
+    border-bottom: 1% dashed gray;
+  }
+
+  .course-topbox {
+    position: relative;
+    top: 20%;
+    opacity: 93%;
+    width: 90%;
+    height: 80%;
+    overflow: hidden;
+  }
+
+  .course-centerbox {
+    width: 90%;
+    height: 102%;
+    text-align: 1.5;
+    overflow: hidden;
+  }
+
+  .course-bottombox {
+    width: 90%;
+    height: 80%;
+    // background-color: black;
+    text-align: 1.5;
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,34 @@
+@import '@/variables.scss';
+.seller{
+   // border:1px solid red;
+    display: flex;
+}
+.img{
+ 
+    margin-top:25px;
+    margin-bottom:20px;
+    margin-left:5%;
+   
+}
+
+.descri{
+   
+    margin-top:45px;
+    margin-bottom:20px;
+    margin-left:5%;
+    
+   
+}
+.name-des{
+  
+    font-weight:bolder;
+    font-size:23px;
+
+}
+.address-des{
+    font-size:18px;
+}
+.icon{
+    color:$color-black-2;
+   
+}

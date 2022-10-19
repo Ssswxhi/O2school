@@ -1,0 +1,44 @@
+@import '@/variables.scss';
+
+.price{
+    font-size:$font-size-xs;
+    color:red;
+}
+.price Text{
+    font-size:$font-size-sm;
+    font-weight: bold;
+}
+// .at-article__img{
+//     border:1px solid red;
+//     margin-left:0;
+   
+//     width:30%;
+//     height: 50px;
+//     display: inline-block;
+// }
+.top{
+    column-count: 2;
+    column-gap: $spacing-h-lg;
+   // margin: 10px;
+    height:100%;
+    text-align: center;
+   width: 50%;
+  // border:1px solid red;
+   display:inline-block;
+    .at-article__img{
+      //  border:1px solid red;
+        margin-left:0;
+    
+        width:170%;
+        //height: 100px;
+        display: inline-block;
+}
+
+}
+.des{
+    display: inline-block;
+  //  border:1px solid red;
+    width:300px;
+ }
+
+  

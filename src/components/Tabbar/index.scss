@@ -1,0 +1,44 @@
+@import '@/variables.scss';
+
+.bar{
+    border-top:1px solid $color-grey-3;
+    display: flex;
+    position: fixed;
+   background-color:#fff;
+    left:0;
+    right: 0;
+    bottom: 0;
+   //z-index:1000;
+    
+}
+.shop{
+   
+    margin-left:50px;
+  
+}
+.star{
+    margin-left:80px;
+   flex:1;
+}
+.contact{
+    margin-top:15px;
+    margin-right: 20px;
+    border-radius: 28px;
+    background-color: orange;
+    color:#fff;
+    font-size:23px;
+    width:160px;
+    height: 45px;
+    border:5px solid rgb(252, 146, 24);
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+  
+
+}
+.des{
+    margin-left:0;
+    font-size:23px;
+    margin-top:-5px;
+    margin-bottom:0;
+}

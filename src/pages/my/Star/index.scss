@@ -1,0 +1,32 @@
+@import '@/variables.scss';
+.at-article__img{
+    width:15%;
+    float:left;
+  
+    margin-left:5%;
+}
+.des{
+    
+    overflow:hidden;
+  
+}
+.price {
+    color:red;
+    display: block;
+    font-size:$font-size-sm;
+
+}
+//价格
+/* Text{
+    display:flex;
+    flex-direction:row-reverse;
+    margin-right:4%;
+} */    
+.btn{
+ width:160px;
+    font-size:$font-size-sm;
+    color:red;
+    display:flex;
+    flex-direction:row-reverse;
+    margin-right:4%;
+}
