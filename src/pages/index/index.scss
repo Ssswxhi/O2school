@@ -5,3 +5,45 @@
     color: white;
     text-align: center;
 }
+.tabs{
+  //  position: sticky;
+  //  z-index:10;
+    // width:100px;
+    // height: 10px;
+   // background-color: red;
+ //   border:1px solid red;
+}
+.at-tabs__header{
+    
+//     position:fixed;
+//   z-index:10;
+//     position: absolute;
+  //   position: sticky;
+   // top:-0px;
+  //  border:1px solid blue;
+    margin-bottom:10px;
+}
+.topnavFixed{
+    border-top-left-radius:20rpx;
+    border-top-right-radius:20rpx;
+    position:fixed;width:100%;height:100px; top:0rpx;background:white;z-index: 1;
+}
+
+.topnavAbsolute{
+    border-top-left-radius:20rpx;
+    border-top-right-radius:20rpx;
+    position:absolute;width:100%;height:100px; top:300px;background:red;z-index: 1;
+    }
+// .test{
+   
+//         position: sticky;
+//         top: 0px;
+//    background-color: cadetblue;
+//    width:100%;
+//    height: 200px;
+//    z-index: 100;
+    
+// }
+.ggg{
+    position: sticky;top:0;z-index: 99;
+}

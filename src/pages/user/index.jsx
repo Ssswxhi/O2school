@@ -1,24 +1,46 @@
+import Taro from "@tarojs/taro";
+import { useState } from "react";
+import Me from "./components/Me";
+import My from "./components/My";
+import List from "./components/List";
 import { View } from "@tarojs/components";
-<<<<<<< HEAD
 
-export default function(){
-  return <View>用户</View>
-}
-=======
-import NavBar from "../NavBar";
-export default function() {
+function User() {
+  const [log, setLog] = useState(true);
+  Taro.getStorage({
+    key: "userMess",
+    success: res => {
+      console.log(res);
+      setLog(false);
+    },
+    fail: res => {
+      setLog(true);
+      Taro.navigateTo({ url: "/pages/login/index" });
+    }
+  });
+  const click = () => {};
+
   return (
     <View>
-      <NavBar
-        background="#43BA6A"
-        color="#fff"
-        iconTheme="white"
-        back
-        renderCenter={
-          <View className="trace-rowAlignCenter">自定义导航栏标题</View>
-        }
-      />
+      <View>
+        <Me />
+        <My />
+      </View>
+
+      <View className="middle"></View>
+
+      <List onClick={click} />
+      {/* <AtModal
+  isOpened={log}
+ 
+  cancelText='取消'
+  confirmText='确认'
+  onClose={ this.handleClose }
+  onCancel={ this.handleCancel }
+  onConfirm={ this.handleConfirm }
+  content='请先登陆'
+/> */}
     </View>
   );
 }
->>>>>>> 6e61335cb570dd2c1b66a5a3a72e1469d73c24fc
+export default User;

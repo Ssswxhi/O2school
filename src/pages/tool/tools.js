@@ -39,8 +39,6 @@ let reLaunchPage = (url, data) => {
     // }
   });
 };
-<<<<<<< HEAD
-=======
 let useEventTrigger =(eventName, onEvnetChange) =>{
   useEffect(() => {
     function bindChange(data) {
@@ -55,7 +53,6 @@ let useEventTrigger =(eventName, onEvnetChange) =>{
     };
   }, []);
 }
->>>>>>> 6e61335cb570dd2c1b66a5a3a72e1469d73c24fc
 export {
   toOtherPage,
   reLaunchPage

@@ -11,11 +11,7 @@
 
 @font-face {
     font-family: "remixicon";
-<<<<<<< HEAD
     src: url("remixicon.woff2?t=1590207869815") format("woff2");
-=======
-    src: url("./remixicon.woff2") format("woff2");
->>>>>>> 6e61335cb570dd2c1b66a5a3a72e1469d73c24fc
     font-display: swap;
 }
 
