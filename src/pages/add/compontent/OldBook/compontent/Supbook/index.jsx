@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-import { useState, useEffect } from "react";
-import { View, Text, Button } from "@tarojs/components";
-import "./index.scss";
-import Header from "../Header/index";
-import { AtInputNumber, AtTag } from "taro-ui";
-import { toOtherPage } from "../../../../../tool/tools";
-export default function index(props) {
-  useEffect(option => {
-    console.log(option);
-    console.log(this);
-  });
-  console.log(props);
-  const newlevel = ["九成新", "全新", "八成新", "七成新"];
-  const [price, setPrice] = useState(6);
-  const [activeIndex, setActive] = useState(false);
-=======
 import { useState, useEffect ,useMemo} from "react";
 import { View, Text, Button,Image } from "@tarojs/components";
 import Taro from "@tarojs/taro";
@@ -33,17 +16,10 @@ export default function index() {
   const [statusValue, setStatusValue] = useState("");
   const [isOpenedValue, setIsOpenedValue] = useState(0);
   const [damaged ,setDamaged] = useState(0);
->>>>>>> 6e61335cb570dd2c1b66a5a3a72e1469d73c24fc
   const pubBookUrl = "/pages/add/compontent/OldBook/compontent/Pubbook/index";
   let handleChange = value => {
     setPrice(value);
   };
-<<<<<<< HEAD
-  // let getPrimary = target => {
-  //   console.log(target);
-  //   target.active = 'false'
-  // };
-=======
   let getInforms = ()=>{
     let informObj = {}
     for( const key in bookMessage ){
@@ -133,25 +109,11 @@ export default function index() {
     getTheBook()
     getDamaged();   
   },[])
->>>>>>> 6e61335cb570dd2c1b66a5a3a72e1469d73c24fc
   return (
     <View className="border-box">
       <Header state={1} />
       <View className="content-box">
         <View className="header-box">
-<<<<<<< HEAD
-          <View className="header-left">1</View>
-          <View className="header-right">
-            <Text className="book-title">程序员的数学</Text>
-            <View className="book-author">
-              <Text>爱上等哈</Text>
-              <Text></Text>
-            </View>
-            <Text className="book-text">
-              爱程序员的数学上等哈程序员的数学程序员的数学程序员的学上等哈程序员的数学程序员的数学程序员的学上等哈程序员的数学程序员的数学程序员的数学程序员的数学程序员的数学程序员的数学程序员学程序员的数学程序员的数的数学程序员的数学
-            </Text>
-            <Text className="perch" />
-=======
           <View className="header-left">
           <Image
           className="imge"
@@ -168,7 +130,6 @@ export default function index() {
             {bookMessage.summary}
             </Text>
             <Text className="perch"/>
->>>>>>> 6e61335cb570dd2c1b66a5a3a72e1469d73c24fc
           </View>
         </View>
         <View className="masster-box">
@@ -199,10 +160,6 @@ export default function index() {
                         active={activeIndex === index}
                         name={item}
                         onClick={e => {
-<<<<<<< HEAD
-                          console.log(e);
-=======
->>>>>>> 6e61335cb570dd2c1b66a5a3a72e1469d73c24fc
                           setActive(index);
                         }}
                       >
@@ -216,11 +173,7 @@ export default function index() {
                 <Button
                   className="topubpage"
                   onClick={() => {
-<<<<<<< HEAD
-                    toOtherPage(pubBookUrl);
-=======
                     givOldBook()
->>>>>>> 6e61335cb570dd2c1b66a5a3a72e1469d73c24fc
                   }}
                 >
                   <Text>保存</Text>
@@ -230,15 +183,12 @@ export default function index() {
           </View>
         </View>
       </View>
-<<<<<<< HEAD
-=======
       <AtToast
             isOpened={isOpenedValue}
             text={textValue}
             icon={iconValue}
             status={statusValue}
           ></AtToast>
->>>>>>> 6e61335cb570dd2c1b66a5a3a72e1469d73c24fc
     </View>
   );
 }

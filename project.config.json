@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "miniprogramRoot": "dist/",
   "projectname": "weapp",
   "description": "氧气校园",
@@ -44,53 +43,4 @@
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
   "condition": {}
-=======
-    "miniprogramRoot": "dist/",
-    "projectname": "weapp",
-    "description": "氧气校园",
-    "appid": "wx55dd71ad9186aa46",
-    "setting": {
-        "urlCheck": false,
-        "es6": false,
-        "enhance": false,
-        "postcss": false,
-        "preloadBackgroundData": false,
-        "minified": false,
-        "newFeature": true,
-        "coverView": true,
-        "nodeModules": false,
-        "autoAudits": false,
-        "showShadowRootInWxmlPanel": false,
-        "scopeDataCheck": false,
-        "uglifyFileName": false,
-        "checkInvalidKey": true,
-        "checkSiteMap": true,
-        "uploadWithSourceMap": true,
-        "compileHotReLoad": false,
-        "lazyloadPlaceholderEnable": false,
-        "useMultiFrameRuntime": false,
-        "useApiHook": false,
-        "useApiHostProcess": false,
-        "babelSetting": {
-            "ignore": [],
-            "disablePlugins": [],
-            "outputPath": ""
-        },
-        "enableEngineNative": false,
-        "useIsolateContext": true,
-        "userConfirmedBundleSwitch": false,
-        "packNpmManually": false,
-        "packNpmRelationList": [],
-        "minifyWXSS": true,
-        "disableUseStrict": false,
-        "minifyWXML": true,
-        "showES6CompileOption": false,
-        "useCompilerPlugins": false
-    },
-    "compileType": "miniprogram",
-    "simulatorType": "wechat",
-    "simulatorPluginLibVersion": {},
-    "libVersion": "2.21.0",
-    "condition": {}
->>>>>>> 6e61335cb570dd2c1b66a5a3a72e1469d73c24fc
 }

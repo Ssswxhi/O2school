@@ -1,8 +1,4 @@
 import React from "react";
-<<<<<<< HEAD
-import { View } from "@tarojs/components";
-export default function index() {
-=======
 import Taro from "@tarojs/taro";
 import { View } from "@tarojs/components";
 export default function index() {
@@ -23,6 +19,5 @@ export default function index() {
   //     console.log(err);
   //   }
   // });
->>>>>>> 6e61335cb570dd2c1b66a5a3a72e1469d73c24fc
   return <View>asdasd</View>;
 }

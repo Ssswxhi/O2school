@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-import { View } from "@tarojs/components";
-
-export default function(){
-  return <View>添加</View>
-}
-=======
 // import { useState ,useEffect } from "react";
 import { View } from "@tarojs/components";
 import "./index.scss";
@@ -98,4 +91,3 @@ export default function() {
     </View>
   );
 }
->>>>>>> 6e61335cb570dd2c1b66a5a3a72e1469d73c24fc

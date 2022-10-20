@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-import { View } from "@tarojs/components";
-
-export default function(){
-  return <View>课表</View>
-}
-=======
 // import { View } from "@tarojs/components";
 // import URL from "../tool/url";
 // import Taro, { Component } from "@tarojs/taro";
@@ -329,4 +322,3 @@ export default function() {
 //     </View>
 //   );
 // }
->>>>>>> 6e61335cb570dd2c1b66a5a3a72e1469d73c24fc

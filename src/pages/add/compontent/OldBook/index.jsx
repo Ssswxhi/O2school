@@ -36,16 +36,6 @@
 //   );
 // }
 
-<<<<<<< HEAD
-import React from "react";
-import { AtIcon } from "taro-ui";
-import { View, Button, Input, Text } from "@tarojs/components";
-import "./index.scss";
-import Header from "./compontent/Header/index";
-import { toOtherPage } from "../../../tool/tools";
-const supBookUrl = "/pages/add/compontent/OldBook/compontent/Supbook/index";
-export default function index() {
-=======
 import React ,{useState,useEffect, useMemo}from "react";
 import Taro, { Events } from "@tarojs/taro";
 import { AtIcon ,AtToast} from "taro-ui";
@@ -106,33 +96,25 @@ export default function index() {
     // console.log(isbnValue);
     // Taro.eventCenter.trigger('getIsbnValue',isbnValue)
   },[isbnValue])
->>>>>>> 6e61335cb570dd2c1b66a5a3a72e1469d73c24fc
   return (
     <View className="border-box">
       <Header state={0} />
       <View className="content-box">
         <View className="head-box">
           <Input
-<<<<<<< HEAD
-=======
             value={isbnValue}
             onInput = {getIsbnValue}
->>>>>>> 6e61335cb570dd2c1b66a5a3a72e1469d73c24fc
             type="number"
             placeholder="输入ISBN码"
             className="isbn-input"
           />
         </View>
-<<<<<<< HEAD
-        <View className="text-box">111</View>
-=======
         <View className="text-box">
         <Image
           className="imge"
           src={isbnImage}
         />
         </View>
->>>>>>> 6e61335cb570dd2c1b66a5a3a72e1469d73c24fc
         <View className="bottom-box">
           <Text>大家可以直接通过摄像头扫描出</Text>
           <Text>ISBN码</Text>
@@ -146,14 +128,6 @@ export default function index() {
           </Text>
         </View>
         <View className="tosuppage">
-<<<<<<< HEAD
-          <Button>
-            <Text>点击扫码</Text>
-          </Button>
-          <Button
-            onClick={() => {
-              toOtherPage(supBookUrl, "123");
-=======
           <Button onClick={getImage}>
             <Text>点击扫码</Text>
           </Button>
@@ -165,22 +139,18 @@ export default function index() {
                 toOtherPage(url, '123');
               }
               
->>>>>>> 6e61335cb570dd2c1b66a5a3a72e1469d73c24fc
             }}
           >
             <Text>提交</Text>
           </Button>
         </View>
       </View>
-<<<<<<< HEAD
-=======
       <AtToast
             isOpened={isOpenedValue}
             text={textValue}
             icon={iconValue}
             status={statusValue}
           ></AtToast>
->>>>>>> 6e61335cb570dd2c1b66a5a3a72e1469d73c24fc
     </View>
   );
 }
